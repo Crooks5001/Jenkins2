@@ -4,7 +4,10 @@ public class Main {
         int add = simpleAddition(10,12);
         int mult = simpleMultiplication(2,4);
         int sub = simpleSubtraction(3,4);
-        System.out.printf("Addition: %d\n Multiplication: %d\n Subtraction: %d");
+        System.out.printf("Addition: %d\nMultiplication: %d\nSubtraction: %d", add, mult, sub);
+
+        int finalResult= add + mult + sub;
+        System.out.println("\ncombining all three leaves us with: " + finalResult);
 
     }
     public static int simpleAddition(int a, int b){
